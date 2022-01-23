@@ -2,11 +2,11 @@ trigger:
 - master
 
 variables:
-  backendServiceArm: 'AZURE_5_SUBSCRIPTION'
-  backendAzureRmResourceGroupName: 'resourcegroup-devops-tfstate'
-  backendAzureRmStorageAccountName: 'terraform0tfstate0'
+  backendServiceArm: 'XMA VMIC'
+  backendAzureRmResourceGroupName: 'testRg'
+  backendAzureRmStorageAccountName: 'malditof'
   backendAzureRmContainerName: 'tfstate'
-  location: 'westeurope'
+  location: 'uksouth'
   tfBackendEnvironment: tf_backend
   devEnvironment: dev
   testEnvironment: test
