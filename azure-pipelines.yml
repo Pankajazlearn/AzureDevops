@@ -2,9 +2,8 @@ trigger:
 - master
 
 variables:
-  backendServiceArm: 'XMA VMIC'
-  backendAzureRmResourceGroupName: 'testRg'
-  backendAzureRmStorageAccountName: 'malditof'
+  backendAzureRmResourceGroupName: 'devops'
+  backendAzureRmStorageAccountName: 'prodstore7121'
   backendAzureRmContainerName: 'tfstate'
   location: 'uksouth'
   tfBackendEnvironment: tf_backend
